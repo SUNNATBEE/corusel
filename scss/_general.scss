@@ -1,0 +1,41 @@
+
+/* GENERAL */
+   @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*,
+*::before,
+*::after{
+  box-sizing: inherit;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+html{
+  height: 100%;
+  box-sizing: border-box;
+}
+
+img{
+  display: block;
+  // height: 100%;
+}
+body{
+  display: flex;
+  background-color:#EDF3F8;
+  flex-direction: column;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", "Arial", sans-serif;
+  font-weight: 400;
+}
+a{
+  text-decoration: none;
+}
+
+/* STICKY-FOOTER */
+
+.site-main{
+  flex-grow: 1;
+}
